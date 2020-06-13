@@ -10,7 +10,7 @@ deploy:
   provider: elasticbeanstalk
   region: "us-east-1"
   app: "docker-react"
-  env: "Docker-env"
+  env: "DockerReact-env"
   # The S3 bucket and dir in bucket that stores all config/hosting files
   bucket_name: "elasticbeanstalk-us-east-1-059673065443"
   bucket_path: "docker-react"
